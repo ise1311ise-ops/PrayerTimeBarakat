@@ -1,0 +1,2 @@
+# PrayerTimeBarakat
+Privacy Policy Barakat
