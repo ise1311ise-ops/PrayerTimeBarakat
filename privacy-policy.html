@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Политика конфиденциальности — PrayerTimes Barakat</title>
+  <meta name="description" content="Политика конфиденциальности приложения PrayerTimes Barakat." />
+  <style>
+    :root{
+      --bg:#07090c;
+      --card:#0b0f12;
+      --text:#eaf1f7;
+      --muted:rgba(234,241,247,.72);
+      --muted2:rgba(234,241,247,.55);
+      --border:rgba(255,255,255,.10);
+      --border2:rgba(255,255,255,.06);
+      --neon:#67E5FF;
+      --link:#8ff0ff;
+      --shadow: 0 18px 60px rgba(0,0,0,.45);
+      --radius: 18px;
+      --radius2: 12px;
+      --max: 980px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(900px 500px at 20% 10%, rgba(103,229,255,.18), transparent 60%),
+        radial-gradient(800px 460px at 90% 0%, rgba(103,229,255,.12), transparent 55%),
+        radial-gradient(700px 420px at 60% 110%, rgba(103,229,255,.10), transparent 60%),
+        var(--bg);
+      line-height:1.55;
+    }
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:42px 18px 18px;
+    }
+    .brand{
+      display:flex; gap:12px; align-items:center;
+      margin-bottom:14px;
+    }
+    .dot{
+      width:14px; height:14px; border-radius:50%;
+      background: var(--neon);
+      box-shadow: 0 0 18px rgba(103,229,255,.65), 0 0 42px rgba(103,229,255,.25);
+    }
+    h1{
+      margin:0;
+      font-size: clamp(26px, 4vw, 40px);
+      letter-spacing:-.02em;
+      line-height:1.15;
+    }
+    .subtitle{
+      margin:10px 0 0;
+      color:var(--muted);
+      max-width: 70ch;
+      font-size: 14px;
+    }
+    main{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:18px 18px 60px;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .card-inner{
+      padding: 22px 20px;
+      background: radial-gradient(900px 240px at 20% 0%, rgba(103,229,255,.12), transparent 55%);
+    }
+    .meta{
+      display:flex; flex-wrap:wrap; gap:10px 14px;
+      margin: 10px 0 0;
+      color: var(--muted2);
+      font-size: 13px;
+    }
+    .pill{
+      padding:6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(103,229,255,.25);
+      background: rgba(103,229,255,.08);
+      color: rgba(234,241,247,.90);
+    }
+    .toc{
+      margin-top:18px;
+      padding: 14px 14px;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius2);
+      background: rgba(11,15,18,.70);
+    }
+    .toc strong{display:block; margin-bottom:8px}
+    .toc a{display:inline-block; margin:4px 10px 4px 0; font-size: 13px; color: var(--muted)}
+    .section{
+      padding: 18px 20px;
+      border-top: 1px solid var(--border2);
+      background: rgba(11,15,18,.70);
+    }
+    h2{
+      margin:0 0 10px;
+      font-size: 18px;
+      letter-spacing:-.01em;
+    }
+    p{margin: 0 0 10px; color: rgba(234,241,247,.90)}
+    ul{margin: 8px 0 12px 20px; color: rgba(234,241,247,.90)}
+    li{margin: 6px 0}
+    .note{
+      margin-top: 10px;
+      padding: 12px 12px;
+      border-radius: var(--radius2);
+      border: 1px dashed rgba(103,229,255,.28);
+      background: rgba(103,229,255,.07);
+      color: rgba(234,241,247,.90);
+      font-size: 13px;
+    }
+    footer{
+      max-width:var(--max);
+      margin:0 auto;
+      padding: 18px 18px 40px;
+      color: var(--muted2);
+      font-size: 12px;
+      text-align:center;
+    }
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: .95em;
+      color: rgba(234,241,247,.92);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.06);
+      padding: 2px 6px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="dot" aria-hidden="true"></div>
+    <div style="font-weight:800; letter-spacing:.02em;">PrayerTimes Barakat</div>
+  </div>
+
+  <h1>Политика конфиденциальности</h1>
+  <p class="subtitle">
+    Здесь описано, какие данные обрабатывает приложение <b>PrayerTimes Barakat</b>, для чего они нужны,
+    где хранятся и как вы можете управлять ими.
+  </p>
+
+  <div class="meta">
+    <span class="pill"><b>Дата вступления:</b> 08 января 2026</span>
+    <span class="pill"><b>Контакт:</b> <a href="mailto:support@barakat.app">support@barakat.app</a></span>
+  </div>
+</header>
+
+<main>
+  <article class="card">
+    <div class="card-inner">
+      <div class="toc" aria-label="Оглавление">
+        <strong>Оглавление</strong>
+        <a href="#controller">1) Оператор и контакты</a>
+        <a href="#data">2) Какие данные обрабатываются</a>
+        <a href="#purpose">3) Цели обработки</a>
+        <a href="#storage">4) Хранение данных</a>
+        <a href="#third">5) Сторонние сервисы</a>
+        <a href="#permissions">6) Разрешения Android</a>
+        <a href="#deletion">7) Удаление данных</a>
+        <a href="#security">8) Безопасность</a>
+        <a href="#kids">9) Дети</a>
+        <a href="#rights">10) Права пользователей</a>
+        <a href="#changes">11) Изменения политики</a>
+      </div>
+
+      <div class="note">
+        В текущей версии приложение не требует регистрации и хранит настройки в основном локально на устройстве.
+        Если в будущем добавятся аналитика/реклама/аккаунты — политика будет обновлена.
+      </div>
+    </div>
+
+    <section class="section" id="controller">
+      <h2>1) Кто является оператором данных (контакты)</h2>
+      <p>
+        По вопросам конфиденциальности вы можете связаться с нами по email:
+        <a href="mailto:support@barakat.app">support@barakat.app</a>.
+      </p>
+    </section>
+
+    <section class="section" id="data">
+      <h2>2) Какие данные обрабатывает приложение</h2>
+      <p><b>2.1. Данные, которые предоставляет устройство/пользователь</b></p>
+      <ul>
+        <li><b>Геолокация</b> (примерная/точная — зависит от выданных разрешений): используется для определения города и расчёта времени молитв по координатам.</li>
+        <li><b>Настройки приложения</b>, которые вы выбираете:
+          <ul>
+            <li>метод расчёта времени молитв;</li>
+            <li>корректировки времени молитв (если вы вручную меняете время);</li>
+            <li>язык интерфейса;</li>
+            <li>настройки уведомлений (за сколько минут предупреждать, режим «со звуком/без звука», выбранный рингтон).</li>
+          </ul>
+        </li>
+        <li><b>Технические данные запроса</b> при обращении к стороннему API (например, IP-адрес, время запроса и т.п.) — могут обрабатываться на стороне сервиса, к которому выполняется запрос.</li>
+      </ul>
+
+      <p><b>2.2. Что приложение не собирает (в текущей версии)</b></p>
+      <ul>
+        <li>не требует создания аккаунта;</li>
+        <li>не запрашивает и не собирает имя, номер телефона, email пользователя для идентификации;</li>
+        <li>не запрашивает доступ к контактам и медиафайлам;</li>
+        <li>не содержит встроенной рекламы и аналитики (при добавлении в будущем политика будет обновлена).</li>
+      </ul>
+    </section>
+
+    <section class="section" id="purpose">
+      <h2>3) Для чего используются данные</h2>
+      <ul>
+        <li>определение города и получение времени молитв по координатам;</li>
+        <li>показ расписания и таймера до следующей молитвы;</li>
+        <li>создание и показ уведомлений о времени молитвы (в момент или заранее);</li>
+        <li>сохранение ваших настроек (язык, рингтон, режим уведомлений, корректировки времени).</li>
+      </ul>
+    </section>
+
+    <section class="section" id="storage">
+      <h2>4) Где и как хранятся данные</h2>
+      <ul>
+        <li>Настройки и кэш времени молитв сохраняются <b>локально на вашем устройстве</b> (в хранилище настроек приложения).</li>
+        <li>Мы не предоставляем сервер для хранения ваших персональных данных и <b>не выгружаем</b> их на наши серверы.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="third">
+      <h2>5) Передача данных третьим лицам и сторонние сервисы</h2>
+      <p>
+        Приложение использует сторонние сервисы для отдельных функций:
+      </p>
+      <ul>
+        <li>
+          <b>API времени молитв (AlAdhan)</b> — приложение запрашивает расписание молитв по координатам через публичный API.
+          При обращении сервис может получать технические данные запроса (например, IP-адрес) и переданные координаты.
+        </li>
+        <li>
+          <b>Google Play Services (геолокация)</b> — для получения местоположения может использоваться Fused Location Provider.
+          Обработка данных происходит в рамках работы сервисов Google на устройстве.
+        </li>
+      </ul>
+      <div class="note">
+        Обработка данных этими сервисами регулируется их собственными политиками конфиденциальности.
+      </div>
+    </section>
+
+    <section class="section" id="permissions">
+      <h2>6) Разрешения Android и зачем они нужны</h2>
+      <ul>
+        <li><code>INTERNET</code> — запросы к API времени молитв.</li>
+        <li><code>ACCESS_COARSE_LOCATION</code> / <code>ACCESS_FINE_LOCATION</code> — определение местоположения и корректный расчёт времени.</li>
+        <li><code>POST_NOTIFICATIONS</code> — показ уведомлений (Android 13+).</li>
+        <li><code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code> — точные напоминания в нужное время.</li>
+        <li><code>RECEIVE_BOOT_COMPLETED</code> — восстановление запланированных уведомлений после перезагрузки.</li>
+        <li><code>WAKE_LOCK</code> — более надёжное срабатывание уведомлений/будильников.</li>
+      </ul>
+      <p>
+        Вы можете отключить доступ к геолокации и/или уведомлениям в настройках Android —
+        приложение продолжит работать, но часть функций может быть ограничена.
+      </p>
+    </section>
+
+    <section class="section" id="deletion">
+      <h2>7) Удаление данных</h2>
+      <p>
+        Данные хранятся локально, поэтому вы можете удалить их так:
+      </p>
+      <ul>
+        <li>удалить приложение (удалятся настройки и кэш);</li>
+        <li>или очистить данные приложения в настройках Android.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="security">
+      <h2>8) Безопасность</h2>
+      <p>
+        Мы применяем разумные меры для защиты данных на устройстве. Однако ни один способ хранения или передачи
+        данных не может гарантировать абсолютную безопасность.
+      </p>
+    </section>
+
+    <section class="section" id="kids">
+      <h2>9) Дети</h2>
+      <p>
+        Приложение не предназначено специально для детей и не собирает данные, направленные на их идентификацию.
+        Если вы считаете, что ребёнок предоставил персональные данные, свяжитесь с нами: <a href="mailto:support@barakat.app">support@barakat.app</a>.
+      </p>
+    </section>
+
+    <section class="section" id="rights">
+      <h2>10) Права пользователей (включая GDPR/ЕЭЗ)</h2>
+      <p>
+        Если вы находитесь в ЕЭЗ/ЕС, у вас могут быть права на доступ, исправление и удаление данных.
+        В текущей реализации данные хранятся локально — вы контролируете их через настройки устройства (см. раздел 7).
+        По вопросам обращайтесь: <a href="mailto:support@barakat.app">support@barakat.app</a>.
+      </p>
+    </section>
+
+    <section class="section" id="changes">
+      <h2>11) Изменения политики</h2>
+      <p>
+        Мы можем обновлять Политику конфиденциальности. Актуальная версия всегда будет доступна по ссылке,
+        указанной в Google Play и/или в приложении.
+      </p>
+    </section>
+  </article>
+</main>
+
+<footer>
+  © <span id="year"></span> PrayerTimes Barakat • Политика конфиденциальности
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
